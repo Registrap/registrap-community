@@ -1,0 +1,54 @@
+name: ✨ Suggest a Feature
+description: Propose a new feature or improvement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: Describe your idea in one or two lines
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem This Solves
+      placeholder: What problem are you experiencing that this would fix?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: How do you think this should work?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      placeholder: Are there other ways to solve this?
+    validations:
+      required: false
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      placeholder: Give us a real-world example of when you'd need this
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who Else Needs This?
+      placeholder: Do you think this is just for you or more general?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: Screenshots, examples from other products, etc.
+    validations:
+      required: false
