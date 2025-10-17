@@ -1,0 +1,33 @@
+name: 💬 Ask a Question
+description: Help, doubts, or clarifications
+title: "[QUESTION] "
+labels: ["discussion"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      placeholder: Tell us what's unclear
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      placeholder: What were you trying to do? Where were you?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What You Already Tried
+      placeholder: What have you already attempted?
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      placeholder: Any context that might help
+    validations:
+      required: false
