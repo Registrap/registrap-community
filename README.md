@@ -5,13 +5,13 @@ Welcome! This is the central place to report bugs, suggest features, and discuss
 ## 🚀 Getting Started
 
 ### Report a Bug
-Found something that isn't working as it should? [Open an issue](../../issues/new?template=bug_report.md)
+Found something that isn't working as it should? [Open an issue](../../issues/new?template=bug_report.yml)
 
 ### Suggest a Feature
-Have an idea that would make Registrap better? [Share your suggestion](../../issues/new?template=feature_request.md)
+Have an idea that would make Registrap better? [Share your suggestion](../../issues/new?template=feature_request.yml)
 
 ### Ask a Question
-Not sure if it's a bug or a feature? [Start a discussion](../../issues/new?template=question.md)
+Not sure if it's a bug or a feature? [Start a discussion](../../issues/new?template=question.yml)
 
 ---
 
