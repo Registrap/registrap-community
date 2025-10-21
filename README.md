@@ -35,7 +35,8 @@ We use labels to organize issues:
 
 Thanks to everyone helping make Registrap better:
 
-- [Maria Lizeth Duarte Coronado]([link](https://www.linkedin.com/in/lizduartee/)) - UX/UI Designer
+- [Maria Lizeth Duarte Coronado, UX/UI Designer](https://www.linkedin.com/in/lizduartee/)
+- [Rodrigo de Diego de Somonte, QA Tester](https://www.linkedin.com/in/rodrigo-de-diego-de-somonte)
 
 ---
 
