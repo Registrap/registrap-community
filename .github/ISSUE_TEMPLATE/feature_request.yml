@@ -1,54 +1,38 @@
-name: ✨ Suggest a Feature
-description: Propose a new feature or improvement
-title: "[FEATURE] "
+name: 💡 Suggest a Feature
+description: Share an idea or improvement you'd love to see!
+title: "[FEATURE] Briefly describe your idea"
 labels: ["enhancement"]
 body:
   - type: textarea
-    id: summary
+    id: idea
     attributes:
-      label: Summary
-      placeholder: Describe your idea in one or two lines
+      label: What's your idea?
+      description: Tell us what you’d like to see or improve. Feel free to be brief or detailed — whatever feels right.
+      placeholder: |
+        Example:
+        - "It’d be awesome if we could export data to CSV."
+        - "Add dark mode to make it easier on the eyes at night."
     validations:
       required: true
   - type: textarea
-    id: problem
+    id: why
     attributes:
-      label: Problem This Solves
-      placeholder: What problem are you experiencing that this would fix?
-    validations:
-      required: true
-  - type: textarea
-    id: solution
-    attributes:
-      label: Proposed Solution
-      placeholder: How do you think this should work?
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives Considered
-      placeholder: Are there other ways to solve this?
+      label: Why would this be useful?
+      description: Help us understand the value — what problem does it solve or what makes it cool?
+      placeholder: |
+        Example:
+        - "It would save time when sharing reports."
+        - "It makes the app more comfortable to use."
     validations:
       required: false
   - type: textarea
-    id: usecase
+    id: extras
     attributes:
-      label: Use Case
-      placeholder: Give us a real-world example of when you'd need this
-    validations:
-      required: true
-  - type: textarea
-    id: audience
-    attributes:
-      label: Who Else Needs This?
-      placeholder: Do you think this is just for you or more general?
-    validations:
-      required: false
-  - type: textarea
-    id: context
-    attributes:
-      label: Additional Context
-      placeholder: Screenshots, examples from other products, etc.
+      label: Anything else?
+      description: Add screenshots, examples, or related ideas (optional).
+      placeholder: |
+        Example:
+        - "Similar to how Notion handles templates."
+        - "Would pair nicely with the new dashboard."
     validations:
       required: false
