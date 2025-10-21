@@ -1,87 +1,43 @@
-name: 🐛 Report a Bug
-description: Something isn't working as it should
-title: "[BUG] "
+name: 🐛 Report Bug (Easy)
+description: Report any problem you find — quick and simple!
+title: "[BUG] Brief description of the issue"
 labels: ["bug"]
 body:
   - type: textarea
-    id: description
+    id: info
     attributes:
-      label: Description
-      placeholder: Briefly describe what's not working
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to Reproduce
+      label: What happened?
+      description: Describe the issue in your own words. You can include steps, screenshots, context — anything that helps understand the bug.
       placeholder: |
-        1. 
-        2. 
-        3.
+        Example:
+        - "When I do X, I expect Y, but Z happens."
+        - "I got an error when trying to log in."
+        - "Attaching a screenshot."
     validations:
       required: true
-  - type: textarea
-    id: expected
+  - type: dropdown
+    id: platform
     attributes:
-      label: Expected Behavior
-      placeholder: What should happen?
-    validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual Behavior
-      placeholder: What's happening instead?
-    validations:
-      required: true
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots or Videos
-      placeholder: If it's visual, share a screenshot or video
+      label: Where did it happen?
+      description: Select the operating system and browser if you know it.
+      options:
+        - "I don’t know / Prefer not to say"
+        - "Windows"
+        - "Mac"
+        - "Linux"
+        - "iOS"
+        - "Android"
     validations:
       required: false
-  - type: dropdown
-    id: browser
-    attributes:
-      label: Browser
-      options:
-        - Chrome
-        - Safari
-        - Firefox
-        - Edge
-        - Other
-    validations:
-      required: true
-  - type: dropdown
-    id: os
-    attributes:
-      label: Operating System
-      options:
-        - Windows
-        - Mac
-        - Linux
-        - iOS
-        - Android
-    validations:
-      required: true
-  - type: dropdown
-    id: device
-    attributes:
-      label: Device
-      options:
-        - Desktop
-        - Tablet
-        - Mobile
-    validations:
-      required: true
   - type: textarea
-    id: context
+    id: extra
     attributes:
-      label: Additional Context
+      label: Anything else you’d like to add?
+      description: If there’s anything else that helps understand the issue, write it here. (Optional)
       placeholder: |
-        - When did this start happening?
-        - Does it happen every time or just sometimes?
-        - Is this blocking your work?
+        Example:
+        - "This started happening today."
+        - "It happens only sometimes."
+        - "It blocks me from using the app."
     validations:
       required: false
