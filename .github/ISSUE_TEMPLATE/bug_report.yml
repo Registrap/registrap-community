@@ -1,7 +1,7 @@
 name: 🐛 Report Bug (Easy)
 description: Report any problem you find — quick and simple!
 title: "[BUG] Brief description of the issue"
-labels: ["bug"]
+labels: ["🐛 bug"]
 body:
   - type: textarea
     id: info
