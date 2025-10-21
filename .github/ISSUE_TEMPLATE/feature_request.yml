@@ -1,7 +1,7 @@
 name: 💡 Suggest a Feature
 description: Share an idea or improvement you'd love to see!
 title: "[FEATURE] Briefly describe your idea"
-labels: ["enhancement"]
+labels: ["✨ enhancement"]
 body:
   - type: textarea
     id: idea
