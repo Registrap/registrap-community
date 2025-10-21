@@ -1,33 +1,40 @@
 name: 💬 Ask a Question
-description: Help, doubts, or clarifications
-title: "[QUESTION] "
+description: Got a doubt or need clarification? Ask here!
+title: "[QUESTION] Briefly describe your question"
 labels: ["discussion"]
 body:
   - type: textarea
     id: question
     attributes:
-      label: Your Question
-      placeholder: Tell us what's unclear
+      label: What’s your question?
+      description: Explain what you’d like to understand or clarify — in your own words.
+      placeholder: |
+        Example:
+        - "How can I reset my password?"
+        - "What’s the difference between X and Y?"
+        - "Why does the app log me out after some time?"
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Context
-      placeholder: What were you trying to do? Where were you?
-    validations:
-      required: true
-  - type: textarea
-    id: tried
-    attributes:
-      label: What You Already Tried
-      placeholder: What have you already attempted?
+      label: Any context?
+      description: (Optional) Tell us what you were trying to do or where you got stuck.
+      placeholder: |
+        Example:
+        - "I was testing on Android."
+        - "This happened right after updating."
+        - "I’m using version 1.2.3."
     validations:
       required: false
   - type: textarea
-    id: additional
+    id: extra
     attributes:
-      label: Additional Information
-      placeholder: Any context that might help
+      label: Anything else?
+      description: Add screenshots, what you’ve already tried, or anything that might help (optional).
+      placeholder: |
+        Example:
+        - "I already checked the docs."
+        - "It only happens sometimes."
     validations:
       required: false
